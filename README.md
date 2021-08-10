@@ -17,4 +17,9 @@ The training dataset consists of over a million of anonymized hotel reservations
 * `city_id` - city_id of the hotel’s city (anonymized)
 * `utrip_id` - Unique identification of user’s trip (a group of multi-destinations bookings within the same trip)
 
+# Models
+For this project, we chose three architectures of recurrent neural network (RNN): <br>
+1. Vanilla Recurrent Neural Network (Vanilla RNN)
+2. Gated Recurrent Units (GRUs)
+3. Long Short Term Memory (LSTM)
 
