@@ -46,7 +46,7 @@ Below is the summary of training and test losses and accuracies:
 # Opportunities for improvement
 * We were able to use only two features (`city_id` and `affiliate_id`) to train the model. Incorporating more features would help us improve model performance.
 
-# Possible next steps:
+# Possible next steps
 * Use more features with the same 3 architectures
 * Do a model ensemble to boost final accuracy
 * Try tuning the recurrent layers' hyperparameters
