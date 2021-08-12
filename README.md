@@ -23,3 +23,17 @@ For this project, we chose three architectures of recurrent neural network (RNN)
 2. Gated Recurrent Units (GRUs)
 3. Long Short Term Memory (LSTM)
 
+# Loss Function
+The loss function we chose for our models was <b>Cross Entropy Loss</b>.
+
+# Evaluation Metric
+In order to evaluate the performance of our models, we chose accuracy@4 as the evaluation metric. For a particular observation to be correctly classified, the `city_id` should be amongst the top 4 `city_ids` predicted by the model. 
+
+# Results
+Below is the summary of training and test losses and accuracies:
+
+| Model | Training Loss | Test Loss | Training Accuracy | Test Accuracy |
+|---|---|---|---|---|
+| Vanilla RNN | 6.21|7.34|0.57  | 0.44| 
+|GRU RNN | 4.39|7.22 |0.62 |0.47 |
+|LSTM | 7.86 | 9.36 | 0.48 | 0.37 |
