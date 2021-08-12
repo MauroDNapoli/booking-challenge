@@ -37,3 +37,20 @@ Below is the summary of training and test losses and accuracies:
 | Vanilla RNN | 6.21|7.34|0.57  | 0.44| 
 |GRU RNN | 4.39|7.22 |0.62 |0.47 |
 |LSTM | 7.86 | 9.36 | 0.48 | 0.37 |
+
+
+# Outcomes
+* We were able to train all 3 models for 10 epochs
+* The best accuracy we obtained was 0.47 which would position us around the 12th position on the leaderboard.
+
+# Opportunities for improvement
+* We were able to use only two features (`city_id` and `affiliate_id`) to train the model. Incorporating more features would help us improve model performance.
+
+# Possible next steps:
+* Use more features with the same 3 architectures
+* Do a model ensemble to boost final accuracy
+* Try tuning the recurrent layers' hyperparameters
+* Use pretrained Word2Vec embeddings
+* Analyse how accuracy@k behaves as k changes.
+
+
